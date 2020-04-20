@@ -67,28 +67,25 @@ By default:
 
 Example JSON request:
 
-````json
+```json
 {
   "genres": ["Comedy", "Crime"],
   "runtime": 100
 }
+```
 
 Example JSON response:
 
 ```json
 {
-    "id": 64,
-    "title": "God Bless America",
-    "year": "2011",
-    "runtime": "105",
-    "genres": [
-        "Comedy",
-        "Crime"
-    ],
-    "director": "Bobcat Goldthwait",
-    "actors": "Joel Murray, Tara Lynne Barr, Melinda Page Hamilton, Mackenzie Brooke Smith",
-    "plot": "On a mission to rid society of its most repellent citizens, terminally ill Frank makes an unlikely accomplice in 16-year-old Roxy.",
-    "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMTc1MzA4NF5BMl5BanBnXkFtZTcwNzQwMTgzNw@@._V1_SX300.jpg"
+  "id": 64,
+  "title": "God Bless America",
+  "year": "2011",
+  "runtime": "105",
+  "genres": ["Comedy", "Crime"],
+  "director": "Bobcat Goldthwait",
+  "actors": "Joel Murray, Tara Lynne Barr, Melinda Page Hamilton, Mackenzie Brooke Smith",
+  "plot": "On a mission to rid society of its most repellent citizens, terminally ill Frank makes an unlikely accomplice in 16-year-old Roxy.",
+  "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMTc1MzA4NF5BMl5BanBnXkFtZTcwNzQwMTgzNw@@._V1_SX300.jpg"
 }
-
-````
+```
