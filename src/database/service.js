@@ -22,7 +22,6 @@ export function getMovies(event) {
 export function addMovie(event) {
   console.log("handle add-movie event");
   console.log(event);
-  console.log(config);
   if (!event) {
     return;
   }
